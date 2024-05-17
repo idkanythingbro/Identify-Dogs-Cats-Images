@@ -150,7 +150,6 @@ from keras._tf_keras.keras.preprocessing import image
 
  
   # predicting images
-# path = 'D:\tmp\cats-v-dogs\testing\cats\23.jpg'
 path = 'name.jpg'# move the image in the same path and enter the name 
 img = image.load_img(path, target_size=(150, 150))
 x = image.img_to_array(img)
